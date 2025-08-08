@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Event Kompany | Vendor Marketplace Coming Soon</title>
-  <meta name="description" content="Discover top event vendors like photographers, caterers, mehndi artists, decorators, and more. Event Kompany is launching soon!" />
+  <title>Event Kompany | Grow Your Vendor Business</title>
+  <meta name="description" content="Event Kompany is launching soon — a platform for event vendors to grow their business and reach more customers. Join us!" />
 
   <!-- SEO -->
-  <meta name="keywords" content="event vendors, wedding vendors, event planning, photography, catering, decorators, mehandi, Event Kompany" />
+  <meta name="keywords" content="vendor platform, event vendors, grow business, photography, mehandi, catering, Event Kompany" />
   <meta name="author" content="Event Kompany" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Event Kompany | Vendor Marketplace Coming Soon" />
-  <meta property="og:description" content="Discover and book trusted event vendors across categories. Launching soon!" />
-  <meta property="og:image" content="https://yourdomain.com/assets/preview-image.jpg" />
+  <meta property="og:title" content="Event Kompany | Grow Your Event Business" />
+  <meta property="og:description" content="We're building a marketplace for event vendors like you to reach more customers. Get in touch now!" />
+  <meta property="og:image" content="https://yourdomain.com/assets/vendor-preview.jpg" />
   <meta property="og:url" content="https://yourdomain.com/vendors" />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -44,9 +44,24 @@
       box-shadow: 0 8px 24px rgba(0,0,0,0.4);
     }
 
-    .logo {
-      width: 100px;
+    .logo-text {
+      font-size: 2rem;
+      font-weight: 700;
       margin-bottom: 20px;
+    }
+
+    .logo-text span:first-child {
+      color: #000;
+      background-color: #fff;
+      padding: 4px 8px;
+      border-radius: 6px 0 0 6px;
+    }
+
+    .logo-text span:last-child {
+      color: #FFB800;
+      background-color: #000;
+      padding: 4px 8px;
+      border-radius: 0 6px 6px 0;
     }
 
     h1 {
@@ -61,17 +76,7 @@
       margin-bottom: 30px;
     }
 
-    .email-input {
-      padding: 12px 16px;
-      border-radius: 8px;
-      border: none;
-      outline: none;
-      width: 100%;
-      max-width: 300px;
-      margin-bottom: 10px;
-    }
-
-    .notify-btn {
+    .mailto-btn {
       background-color: #FFB800;
       border: none;
       color: #000;
@@ -79,10 +84,12 @@
       padding: 12px 24px;
       border-radius: 8px;
       cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
       transition: 0.3s ease;
     }
 
-    .notify-btn:hover {
+    .mailto-btn:hover {
       background-color: #e6a600;
     }
 
@@ -104,14 +111,15 @@
 </head>
 <body>
   <div class="container">
-    <img src="https://yourdomain.com/assets/logo.png" alt="Event Kompany Logo" class="logo" />
-    <h1>Coming Soon</h1>
+    <div class="logo-text">
+      <span>Event</span><span>Kompany</span>
+    </div>
+    <h1>Calling All Event Vendors</h1>
     <p>
-      We’re building a marketplace to help you find the best event vendors — photographers, caterers, mehndi artists, and more.
+      We're building a platform where event professionals — photographers, caterers, mehndi artists, and more — can grow their business and reach more clients.
     </p>
-    <input type="email" placeholder="Enter your email" class="email-input" />
-    <br />
-    <button class="notify-btn">Notify Me</button>
+
+    <a href="mailto:info@eventkompany.com" class="mailto-btn">Partner With Us</a>
 
     <div class="footer">
       &copy; 2025 Event Kompany. All rights reserved.
